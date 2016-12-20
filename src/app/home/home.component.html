@@ -1,3 +1,15 @@
-<p>
-  home works!
-</p>
+<div class="container">
+<h1>Need Music?</h1>
+<p class="lead">Use the ngSpotify to browse new releases and find your favorite songs</p>
+
+  <form class="search-form">
+    <div class="input-group">
+      <div class="input-group-addon"><span><i class="glyphicon glyphicon-search"></i></span></div>
+      <input type="text" placeholder="I am looking for.." class="form-control" [(ngModel)]="searchStr" name="searchStr" (keyup)="searchMusic()"/>
+      <div class="input-group-btn">
+        <button class="btn btn-default" type="button">Search </button>
+      </div>
+    </div>
+  </form>
+
+</div>
