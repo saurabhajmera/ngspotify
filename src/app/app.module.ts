@@ -11,6 +11,7 @@ import {ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import {routing} from "./app.routing";
 import { ArtistComponent } from './artist/artist.component';
+import { AlbumComponent } from './album/album.component';
 
 
 
@@ -23,7 +24,8 @@ import { ArtistComponent } from './artist/artist.component';
     AboutComponent,
     ContactComponent,
     HomeComponent,
-    ArtistComponent
+    ArtistComponent,
+    AlbumComponent
   ],
   imports: [
     BrowserModule,

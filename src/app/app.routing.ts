@@ -4,6 +4,7 @@ import {HomeComponent} from "./home/home.component";
 import {Routes, RouterModule} from "@angular/router";
 import {ModuleWithProviders} from "@angular/core";
 import {ArtistComponent} from "./artist/artist.component";
+import {AlbumComponent} from "./album/album.component";
 /**
  * Created by sajmera on 12/20/16.
  */
@@ -13,7 +14,8 @@ const appRoutes: Routes = [
   {path:'', component:HomeComponent},
   {path:'about', component: AboutComponent},
   {path: 'contact', component:ContactComponent},
-  {path:'artist/:id', component:ArtistComponent}
+  {path:'artist/:id', component:ArtistComponent},
+  {path:'album/:id',component:AlbumComponent}
 
 
 ];
